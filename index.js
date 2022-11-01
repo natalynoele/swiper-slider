@@ -12,3 +12,4 @@ const swiper = new Swiper('.hero-slider', {
   },
 
 });
+swiper.slideNext();
