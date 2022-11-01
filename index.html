@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slider</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="section">
+      <h1>Swiper Slider</h1>
+      <div class="hero-slider swiper">
+        <ul class="hero-slider__wrapper swiper-wrapper">
+          <li class="hero-slider__slide swiper-slide">
+            <div class="hero-slider__img">
+              <img src="./images/hero/meatballs-tablet.png" alt="meetballs" />
+            </div>
+          </li>
+          <li class="hero-slider__slide swiper-slide">
+            <div class="hero-slider__img">
+              <img
+                src="./images/hero/chris-ralston-tablet.png"
+                alt="meetballs"
+              />
+            </div>
+          </li>
+          <li class="hero-slider__slide swiper-slide">
+            <div class="hero-slider__img">
+              <img src="./images/hero/cezar-tablet.png" alt="meetballs" />
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </section>
+    <script type="text/javascript" src="./index.js"></script>
+  </body>
+</html>
